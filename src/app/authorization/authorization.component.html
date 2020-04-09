@@ -1,0 +1,52 @@
+<div class="page1">
+  <div class="page2">
+    <div class="switch">
+      <div id="switch1" (click)="loginPage()">
+        <span>Login</span>
+      </div>
+      <div id="switch2" (click)="registrationPage()">
+        <span>Registration</span>
+      </div>
+    </div>
+
+    <div class="form" *ngIf="authorized">
+      <form (ngSubmit)="login()">
+        <div class="mail">
+          <label>Enter e-mail or username:</label>
+          <input type="text" placeholder="e-mail" [(ngModel)]="user.mail">
+        </div>
+        <div class="password1">
+          <label>Enter password:</label>
+          <input type="password" placeholder="password" [(ngModel)]="user.password1">
+        </div>
+        <div class="submit">
+          <button>Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="form" *ngIf="!authorized">
+      <form (ngSubmit)="register()">
+        <div class="mail">
+          <label>Enter e-mail or username:</label>
+          <input type="text" placeholder="e-mail" [(ngModel)]="user.mail">
+        </div>
+        <div class="password1">
+          <label>Enter password:</label>
+          <input type="password" placeholder="password" [(ngModel)]="user.password1">
+        </div>
+        <div class="password2">
+          <label>Enter password again:</label>
+          <input type="password" placeholder="password" [(ngModel)]="user.password2">
+        </div>
+        <div class="submit" (click)="submit()">
+          <button>Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <div *ngIf="present">
+
+    </div>
+  </div>
+</div>

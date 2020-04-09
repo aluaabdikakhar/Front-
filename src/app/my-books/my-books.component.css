@@ -1,0 +1,84 @@
+.window {
+  margin-top: 180px;
+  margin-left: 400px;
+  border-radius: 7px;
+  border: 5px white groove;
+  display: grid;
+  height: 200px;
+  width: 640px;
+  background-color: rgba(255,255,255,0.65);
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+.message {
+  padding-top: 30px;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.button {
+  padding-bottom: 30px;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+button {
+  width: 100px;
+  margin-bottom: 20px;
+  line-height: 20px;
+  border: 5px white groove;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover, #switch1:hover, #switch2:hover {
+  background-color: rgba(0,0,0,0.65);
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+img {
+  height: 200px;
+}
+.flex {
+  padding: 30px 0;
+  display: block;
+}
+.item {
+  position: relative;
+  height: 260px;
+  margin-bottom: 20px;
+  background-color: rgba(255,255,255,0.65);
+  border-radius: 7px;
+  border: 5px white groove;
+  overflow: visible;
+  text-overflow: ellipsis;
+}
+.image {
+  position: absolute;
+  display: flex;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.right{
+  position: absolute;
+  height: 200px;
+  padding-left: 300px;
+  padding-right: 150px;
+  text-overflow: ellipsis;
+}
+.more-button {
+  position: absolute;
+  padding: 150px 0 75px 1300px;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.description{
+  font-size: 20px;
+  font-weight: normal;
+  text-align: justify;
+}

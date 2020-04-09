@@ -1,0 +1,21 @@
+.dropdown-content {
+  border-radius: 7px;
+  display: block;
+  position: absolute;
+  background-color: rgba(0,0,0,0.65);
+  width: 400px;
+}
+.dropdown-content a {
+  color: red;
+  padding: 7px 7px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  font-family: Arial serif;
+  font-size: 24px;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  border-radius: 7px;
+}

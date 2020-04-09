@@ -1,0 +1,30 @@
+<div *ngIf="selected">
+  <div class="grid-container">
+    <div id="title">
+      <p>{{selected.title}}</p>
+    </div>
+    <div id="description">
+      <p class="fun-hover">{{selected.description}}</p>
+    </div>
+    <div class="image">
+      <img [src]="selected.image" alt="book's image">
+    </div>
+    <div class = "details">
+      <p>
+        ISBN: {{selected.isbn}}<br>
+        Publisher: {{selected.publisher}}<br>
+        Author: {{selected.author}}<br>
+        Genre: {{selected.genre}}<br>
+        Year: {{selected.year}}<br>
+        Pages: {{selected.pages}}<br>
+      </p>
+    </div>
+    <div id = "buttons">
+      <a href="{{selected.book}}">
+        <button id="button1">OPEN</button>
+      </a>
+      <br>
+      <button id="button2" (click)="addBook()">ADD</button>
+    </div>
+  </div>
+</div>

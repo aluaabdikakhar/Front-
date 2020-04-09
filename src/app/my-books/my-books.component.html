@@ -1,0 +1,41 @@
+<div class="main">
+  <div *ngIf="authorized">
+    <div *ngIf="books">
+      <div class="flex">
+        <div *ngFor="let book of books" (click)="onSelect(book)">
+          <div class="item">
+            <div class="image">
+              <img [src]=book.image alt="image">
+            </div>
+            <div class="right">
+              <div class="title">
+                <p>{{book.title}}</p>
+              </div>
+              <div class="description">
+                <p>{{book.description}}</p>
+              </div>
+            </div>
+            <div class="more-button">
+              <a routerLink="/books/{{book.isbn}}">
+                <button>more...</button>
+              </a>
+              <button (click)="deleteBook()">delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div *ngIf="!authorized">
+    <div class="window">
+      <div class="message">
+        <p>Please authorize to view your books!</p>
+      </div>
+      <div class="button">
+        <button routerLink="/authorization">Login</button>
+      </div>
+    </div>
+  </div>
+</div>

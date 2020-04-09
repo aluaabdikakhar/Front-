@@ -1,0 +1,28 @@
+[
+  {
+    "categoryId": 6,
+    "isbn": 9785042147180,
+    "title": "Чудо на Рождество",
+    "description": "Незадолго до Рождества ребята из воскресной школы написали Богу о своих желаниях.  Алик тоже попросил кое о чем – и получил в подарок настоящее приключение! К нему явились три ангела и сообщили: он сам может совершить рождественское чудо...",
+    "image": "https://books.google.com/books/content/images/frontcover/djnBDwAAQBAJ?fife=w400-h600",
+    "publisher": "LitRes: Samizdat",
+    "author": "Марина Клейн",
+    "genre": "Literature for children",
+    "year": 2019,
+    "pages": 30,
+    "book": "https://play.google.com/books/reader?id=djnBDwAAQBAJ&hl=ru&authuser=0"
+  },
+  {
+    "categoryId": 6,
+    "isbn": 9785042379529,
+    "title": "Treasure planet",
+    "description": "Nemo is a brilliant inventor, even though he is not yet sixteen. His parents disappeared in search of the legendary Treasure Planet. To find them, Nemo will have to escape from the most guarded boarding school in the galaxy, make friends with the blue-skinned alien girl Moon, able to turn into anyone, tame the untamed cosmic mouse and go on the most dangerous and fascinating journey into own life.",
+    "image": "https://books.google.com/books/content/images/frontcover/IMPVDwAAQBAJ?fife=w400-h600",
+    "publisher": "AST Publishing House",
+    "author": "Dasha Mikushina, Anna Filagrina, Irina Vekka, Elena Grigorenko",
+    "genre": "Literature for children",
+    "year": 2020,
+    "pages": 206,
+    "book": "https://play.google.com/books/reader?id=IMPVDwAAQBAJ&hl=ru&authuser=0"
+  }
+]

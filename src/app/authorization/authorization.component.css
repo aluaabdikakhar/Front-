@@ -1,0 +1,83 @@
+.page1 {
+  margin-top: 30px;
+}
+.page2 {
+  margin-top: 0;
+  padding-top: 30px;
+  padding-left: 400px;
+  border-radius: 7px;
+  height: 500px;
+  display: grid;
+  grid-gap: 30px;
+}
+.switch {
+  margin-top: 0;
+  display: grid;
+  grid-gap: 30px;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+  line-height: 50px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: 1;
+  width: 630px;
+  height: 50px;
+}
+#switch1 {
+  width: 300px;
+  background-color: rgba(255,255,255,0.65);
+  border-radius: 7px;
+  grid-row: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  border: 5px white groove;
+}
+#switch2 {
+  width: 300px;
+  background-color: rgba(255,255,255,0.65);
+  border-radius: 7px;
+  grid-row: 1;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  border: 5px white groove;
+}
+.form {
+  margin-top: 0;
+  padding: 30px;
+  background-color: rgba(255,255,255,0.65);
+  border: 5px white groove;
+  border-radius: 7px;
+  grid-row: 2;
+  display: grid;
+  grid-gap: 30px;
+  font-size: 25px;
+  width: 580px;
+  height: 310px;
+  margin-bottom: 30px;
+}
+.form div {
+  line-height: 40px;
+}
+input {
+  width: 100%;
+  line-height: 20px;
+  font-size: 20px;
+}
+button {
+  width: 100px;
+  line-height: 20px;
+  border: 5px white groove;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover, #switch1:hover, #switch2:hover {
+  background-color: rgba(0,0,0,0.65);
+  color: white;
+}
+.submit {
+  margin-top: 30px;
+  margin-left: 480px;
+}
